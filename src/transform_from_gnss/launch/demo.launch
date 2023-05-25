@@ -1,0 +1,5 @@
+<launch>
+    <rosparam command="load" file="$(find transform_from_gnss)/config/param.yaml" />
+    <node pkg="transform_from_gnss" type="transform_from_gnss" name="transform_from_gnss" output="screen" /> 
+
+</launch>

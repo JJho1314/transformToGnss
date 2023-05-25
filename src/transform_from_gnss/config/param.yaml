@@ -1,0 +1,5 @@
+common:
+  odomTopic: "/Odometry"
+  gpsTopic:  "/gps/correct_odom"
+  initialPose: [-51.0476009806,80.227463481,0, 0, 0, 0]  #x,y,z,r,p,y
+  intialMethod: "gps"
